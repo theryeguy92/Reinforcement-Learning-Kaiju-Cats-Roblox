@@ -5,6 +5,8 @@
 #include "dqn_agent.h"
 #include <iostream>
 
+
+//NOTE: Making GUI
 int main() {
     Grid cityGrid(5,7); //Plug in the grid (5 rows and 7 columns)
     cityGrid.initializeGrid();

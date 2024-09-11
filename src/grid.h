@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <string>
+#include "cat.h"
 
 class Grid {
     public:
@@ -14,6 +15,9 @@ class Grid {
     void initializeGrid();
     void displayGrid();
     std::string getTileType(int row, int col);
+
+    // Reward Function: Calcs the reward via the cat's position
+    double getReward(Cat& cat);
 
     private:
     int rows;

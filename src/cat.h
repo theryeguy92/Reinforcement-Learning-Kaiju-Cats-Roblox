@@ -16,7 +16,11 @@ class Cat {
 
     int getX() const;
     int getY() const;
+
     int getPower() const;
+    void setPower(int newPower);
+
+    std::string getColor() const;
 
     private:
     int x, y; //Current position
